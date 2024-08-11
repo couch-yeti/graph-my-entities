@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "graph-my-entities"
+version = "0.1.0"
+description = ""
+authors = ["couch-yeti <ericwb52@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+sqlalchemy = "~2.0.31"
+pyodbc = "~5.1.0"
+python-dotenv = "~1.0.1"
+flask = "~3.0.3"
+eralchemy2 = "^1.4.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
